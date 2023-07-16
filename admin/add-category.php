@@ -78,6 +78,7 @@ else
 							</div>
 						</div>
 					</div>
+					<!-- Close add category class -->
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="panel panel-default">
