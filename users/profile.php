@@ -101,7 +101,7 @@ $errormsg="Profile not updated !!";
 </div>
  </div>
 
-
+<!-- Form group class begins here -->
 <div class="form-group">
 <label class="col-sm-2 col-sm-2 control-label">Contact</label>
  <div class="col-sm-4">
