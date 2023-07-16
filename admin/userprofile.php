@@ -28,6 +28,7 @@ window.print();
 </head>
 <body>
 
+<!-- Styling the body -->
 <div style="margin-left:50px;">
  <form name="updateticket" id="updateticket" method="post"> 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -53,6 +54,7 @@ while($row=mysqli_fetch_array($ret1))
     </tr>
     <tr height="50">
       <td><b>Reg Date:</b></td>
+      <!-- Pick the date -->
       <td><?php echo htmlentities($row['regDate']); ?></td>
     </tr>
     <tr height="50">

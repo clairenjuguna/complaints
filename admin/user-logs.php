@@ -31,7 +31,8 @@ else{
 			<div class="span9">
 					<div class="content">
 
-	<div class="module">
+<!-- Module class begins here -->	
+				<div class="module">
 							<div class="module-head">
 								<h3>Manage Users</h3>
 							</div>
@@ -91,6 +92,7 @@ else
 	</div><!--/.wrapper-->
 
 <?php include('include/footer.php');?>
+<!-- Bootstrap Scripts --> 
 
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 	<script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
