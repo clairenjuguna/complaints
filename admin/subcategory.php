@@ -87,7 +87,7 @@ while($row=mysqli_fetch_array($query))
 </div>
 </div>
 
-									
+<!-- Control Group class begins here -->									
 <div class="control-group">
 <label class="control-label" for="basicinput">SubCategory Name</label>
 <div class="controls">
