@@ -42,7 +42,8 @@ if(isset($_GET['del']))
 <body>
 <?php include('include/header.php');?>
 
-	<div class="wrapper">
+<!-- Wrapper class begins here -->	
+<div class="wrapper">
 		<div class="container">
 			<div class="row">
 <?php include('include/sidebar.php');?>				
