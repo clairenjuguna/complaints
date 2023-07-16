@@ -46,6 +46,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 			<div class="span9">
 					<div class="content">
 
+	<!-- Module Class begins here -->
 	<div class="module">
 							<div class="module-head">
 								<h3>Pending Orders</h3>
@@ -78,6 +79,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 										
 										</tr>
 									</thead>
+									<!-- Close table head -->
 								
 <tbody>
 <?php 
