@@ -40,6 +40,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 <body>
 <?php include('include/header.php');?>
 
+<!-- Wrapper class begins here -->
 	<div class="wrapper">
 		<div class="container">
 			<div class="row">
@@ -61,6 +62,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 <?php } ?>
 
 									<br />
+									<!-- Break to next line -->
 
 							
 								<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" width="100%">

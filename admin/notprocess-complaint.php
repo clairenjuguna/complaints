@@ -58,6 +58,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 									<thead>
 										<tr>
 											<th>Complaint No</th>
+											<!-- Make them anonymous -->
 											<!-- <th> complainant Name</th> -->
 											<th>Reg Date</th>
 											<th>Status</th>
@@ -69,6 +70,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 									</thead>
 								
 <tbody>
+	<!-- Table Body begins here -->
 <?php 
 $query=mysqli_query($bd, "select tblcomplaints.*,users.fullName as name from tblcomplaints join users on users.id=tblcomplaints.userId where tblcomplaints.status is null ");
 while($row=mysqli_fetch_array($query))
