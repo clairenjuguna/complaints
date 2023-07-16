@@ -37,7 +37,8 @@ $_SESSION['msg']="State info Updated !!";
 <body>
 <?php include('include/header.php');?>
 
-	<div class="wrapper">
+<!-- Class wrapper begins here -->	
+<div class="wrapper">
 		<div class="container">
 			<div class="row">
 <?php include('include/sidebar.php');?>				
