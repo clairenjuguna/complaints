@@ -76,6 +76,7 @@ if(isset($_GET['del']))
 
 			<form class="form-horizontal row-fluid" name="Category" method="post" >
 									
+<!-- Control Group starts here -->
 <div class="control-group">
 <label class="control-label" for="basicinput">Category Name</label>
 <div class="controls">
